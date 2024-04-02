@@ -20,11 +20,11 @@ To install and run the tool, follow these steps:
 3. (optional) Build the Docker image by running the following command from the root of the repository:
 
     ```
-    docker build -f docker/Dockerfile -t <tool-docker-cwl> .
+    docker build -f docker/Dockerfile -t hmmer-docker .
     ```
     OR pull from the built container.
     ```
-    docker pull ghcr.io/bwbioinfo/~tool-docker-cwl~:latest
+    docker pull ghcr.io/charlenelawdes/hmmer-docker:latest
     ```
    Note: this is only needed if you wish to access the container commands directly via docker.
 4. Run the CWL tool by running the following command from the root of the repository:
